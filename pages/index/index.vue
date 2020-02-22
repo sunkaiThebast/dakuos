@@ -6,7 +6,7 @@
 			:fixed="true"
 			color="#ffffff"
 			statusBarFontColor="#ffffff"
-			@click-right='qrcode()'
+			@click-right='qrcode()' 
 			:backgroundColor='[52,56,59]'
 			>
 			<view slot="right" style="color: #fff;" v-if="userdata.user_type == 1" >
