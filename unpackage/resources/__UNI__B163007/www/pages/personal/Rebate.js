@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"btn-box{ height: ",[0,80],"; width:90% ; position: relative; margin: ",[0,20]," auto; color: #fff; border-radius: ",[0,40],"; display: -webkit-box; display: -webkit-flex; display: flex; -webkit-box-align: center; -webkit-align-items: center; align-items: center; }\n",],undefined,{path:"./pages/personal/Rebate.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/personal/Rebate.wxml') } }));

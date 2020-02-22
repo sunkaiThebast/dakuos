@@ -1,0 +1,71 @@
+.ray-msg-mask {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: auto;
+  bottom: auto;
+  z-index: 9999;
+  background: rgba(0, 0, 0, 0.6);
+}
+.ray-msg-content {
+  width: 350rpx;
+  height: 350rpx;
+  margin: auto;
+  padding: 60rpx;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  right: auto;
+  bottom: auto;
+  z-index: 10000;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border-radius: 28rpx;
+  background-color: #fff;
+  box-sizing: border-box;
+  text-align: center;
+}
+.ray-msg-icon {
+  display: inline-block;
+  width: 120rpx;
+  height: 120rpx;
+  -webkit-mask: url(https://static.jiaoyubao.cn/images/common/icon-check-block.svg) no-repeat;
+          mask: url(https://static.jiaoyubao.cn/images/common/icon-check-block.svg) no-repeat;
+  -webkit-mask-size: 100% 100%;
+          mask-size: 100% 100%;
+  background-color: #1a8cff;
+}
+.ray-msg-icon.ray-msg-error {
+    -webkit-mask: url(https://static.jiaoyubao.cn/images/common/icon-cross-block.svg) no-repeat;
+            mask: url(https://static.jiaoyubao.cn/images/common/icon-cross-block.svg) no-repeat;
+    background-color: #fe1940;
+}
+.ray-msg-title {
+  margin: 40rpx auto 0;
+  font-size: 40rpx;
+  line-height: 56rpx;
+  color: #000000;
+}
+.fixed-msg-info {
+  margin-top: 30rpx;
+  padding: 0 12rpx;
+  font-size: 28rpx;
+  line-height: 40rpx;
+  color: #8c8c8c;
+}
+.ray-msg-btn {
+  width: 100%;
+  height: 88rpx;
+  margin: 60rpx auto 0;
+  background: #1a8cff;
+  border-radius: 44rpx;
+  font-size: 34rpx;
+  line-height: 88rpx;
+  color: #fff;
+}
+.ray-msg-btn.ray-msg-error {
+    background: #fe1940;
+}
+

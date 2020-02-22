@@ -1,0 +1,23 @@
+
+.renzhen{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	color: #fff;
+	font-size: 30rpx;
+	width: 90%;
+	margin: 20rpx auto;
+}
+.yesrzbt{
+	background-color: #00CE47;
+	padding: 10rpx 20rpx;
+	border-radius: 5rpx;
+}
+
+

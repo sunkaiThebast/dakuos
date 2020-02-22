@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "发现",
+  "usingComponents": {
+    "hx-navbar": "/components/hx-navbar/hx-navbar",
+    "uni-tag": "/components/uni-tag/uni-tag",
+    "uni-search-bar": "/components/uni-search-bar/uni-search-bar"
+  }
+}

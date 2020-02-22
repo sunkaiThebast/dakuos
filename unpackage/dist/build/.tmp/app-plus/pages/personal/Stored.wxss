@@ -1,0 +1,25 @@
+
+.btn-box{
+	height: 80rpx;
+	width:90% ;
+	position: relative;
+	margin: 20rpx auto;
+	color: #fff;
+	border-radius: 40rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.zdyinnput{
+	background: #fff;
+	border: 1px solid #fff;
+	margin: 0 auto;
+	height: 80rpx;
+	border-radius:20rpx;
+	text-align: left;
+	padding: 0 20rpx;
+}
+

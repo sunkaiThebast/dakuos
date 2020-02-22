@@ -1,0 +1,31 @@
+
+.content {
+	width: 100%;
+	height:100%;
+	position: fixed;
+	background-color:#2C2D30;
+	text-align: center;
+}
+.saoyisao{
+	height: 300rpx;
+	width: 300rpx;
+	margin: 0 auto;
+	background-color:#2b2e30 ;
+	padding: 50rpx;
+	border-radius: 50%;
+	border: 1px solid #505050;
+}
+.btn-box{
+	height: 80rpx;
+	width:300rpx ;
+	position: relative;
+	color: #fff;
+	border-radius: 40rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+

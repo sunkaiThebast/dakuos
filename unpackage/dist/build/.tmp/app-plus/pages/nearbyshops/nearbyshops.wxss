@@ -1,0 +1,12 @@
+
+.fjdj{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	width: 90%;
+	margin:  20rpx  auto  40rpx;
+}
+

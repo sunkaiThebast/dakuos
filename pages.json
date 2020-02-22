@@ -1,0 +1,150 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "Dakuos"
+			}
+		}
+	    ,{
+            "path" : "pages/nearbyshops/nearbyshops",
+            "style" : {
+				"navigationBarTitleText": "发现"
+			}
+        },
+		{
+		    "path" : "pages/QRcode/QRcode",
+		    "style" : {
+				"navigationBarTitleText": "发布"
+			}
+		},
+		{
+		    "path" : "pages/record/record",
+		    "style" : {
+				"navigationBarTitleText": "消息"
+			}
+		},
+		{
+		    "path" : "pages/personal/personal",
+		    "style" : {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/login/login",
+		    "style": {
+			}
+		},
+		{
+		    "path": "pages/login/forget",
+		    "style": {}
+		},
+		{
+		    "path": "pages/login/register",
+		    "style": {}
+		},
+		{
+		    "path": "pages/login/Loginmode",
+		    "style": {}
+		} ,
+		{
+		    "path": "pages/login/loginShop",
+		    "style": {}
+		} ,
+		{
+		    "path": "pages/login/registershop",
+		    "style": {}
+		} ,
+		{
+		    "path": "pages/login/registershop",
+		    "style": {
+				 // "navigationStyle":"custom"
+			}
+		} 
+        ,{
+            "path" : "pages/personal/Stored",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/personal/Rebate",
+            "style" : {
+				"backgroundColor":"#000"
+			}
+        }
+        ,{
+            "path" : "pages/personal/Addbank",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/Pay/Pay",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/personal/withdraw",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/personal/addidentity",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/personal/Renew",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/personal/Setup",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/login/Changeloginpwd",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/login/Changepaypwd",
+            "style" : {}
+        }
+    ],
+	
+	"globalStyle": {
+		"navigationStyle":"custom",
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+		
+	},
+	"tabBar": {
+		"borderStyle": "black",
+		"backgroundColor": "#333",
+		"color": "#8F8F94",
+		"selectedColor": "#F98B31",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/sy.png",
+				"selectedIconPath": "static/sy2.png",
+				"text": "首页"
+			},{
+				"pagePath": "pages/nearbyshops/nearbyshops",
+				"iconPath": "static/fjdj2.png",
+				"selectedIconPath": "static/fjdj.png",
+				"text": "附近店家"
+			},{
+				"pagePath": "pages/QRcode/QRcode",
+				"iconPath": "static/ewm.png",
+				"selectedIconPath": "static/ewm2.png",
+				"text": "QR-code"
+			},{
+				"pagePath": "pages/record/record",
+				"iconPath": "static/jilu.png",
+				"selectedIconPath": "static/jilu2.png",
+				"text": "交易記錄"
+			},
+			{
+				"pagePath": "pages/personal/personal",
+				"iconPath": "static/wode.png",
+				"selectedIconPath": "static/wode2.png",
+				"text": "我的"
+			}
+		]
+	}
+}

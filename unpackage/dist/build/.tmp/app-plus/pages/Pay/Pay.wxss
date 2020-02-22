@@ -1,0 +1,12 @@
+
+.zdyinnput{
+	  background: #fff;
+	  border: 1px solid #fff; 
+	  height: 120rpx;
+	  border-radius:10rpx;
+	  text-align: left;
+	  padding: 20rpx;
+	  font-size: 60rpx;
+	  margin-top: 50rpx;
+}
+

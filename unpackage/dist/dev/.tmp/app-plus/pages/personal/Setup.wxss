@@ -1,0 +1,25 @@
+
+.setbody{
+	width: 90%;
+	margin:20rpx auto;
+}
+.setlist{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	color: #fff;
+	font-size: 30rpx;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	border-bottom:1px solid #505050 ;
+	padding: 20rpx 0;
+}
+.setlist image{
+	width: 50rpx;
+	height: 50rpx;
+}
+

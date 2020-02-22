@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"content { width: 100%; height:100%; background-color:#2C2D30; text-align: center; }\n",],undefined,{path:"./pages/nearbyshops/nearbyshops.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/nearbyshops/nearbyshops.wxml') } }));

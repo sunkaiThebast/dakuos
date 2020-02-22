@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "我的",
+  "usingComponents": {
+    "hx-navbar": "/components/hx-navbar/hx-navbar",
+    "kps-image-cutter": "/components/ksp-image-cutter/ksp-image-cutter"
+  }
+}

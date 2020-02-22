@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"fjdj{ display: -webkit-box; display: -webkit-flex; display: flex; -webkit-box-align: center; -webkit-align-items: center; align-items: center; width: 90%; margin: ",[0,20],"  auto  ",[0,40],"; }\n",],undefined,{path:"./pages/nearbyshops/nearbyshops.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/nearbyshops/nearbyshops.wxml') } }));

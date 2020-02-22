@@ -1,0 +1,19 @@
+
+.banklist{
+	height: 300rpx;
+	width: 90%;
+	margin: 20rpx auto 0;
+	background: #3F7CFF;
+	border-radius:10rpx ;
+	padding: 20rpx;
+	font-size: 30rpx;
+	color: #FFFFFF;
+}
+.addpopup{
+	 width: 600rpx;
+	 height:720rpx;
+	 background: #fff;
+	 border-radius: 20rpx;
+	 box-shadow: 0 0 60rpx 0 rgba(43,86,112,.1);
+}
+
