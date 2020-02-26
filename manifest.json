@@ -1,6 +1,6 @@
 {
     "name" : "Dakuos",
-    "appid" : "__UNI__B163007",
+    "appid" : "__UNI__BB0BD5D",
     "description" : "",
     "versionName" : "1.0.0",
     "versionCode" : "100",
@@ -53,31 +53,31 @@
             },
             "icons" : {
                 "android" : {
-                    "hdpi" : "C:/Users/Administrator/Desktop/1125/icon/72x72.png",
-                    "xhdpi" : "C:/Users/Administrator/Desktop/1125/icon/96x96.png",
-                    "xxhdpi" : "C:/Users/Administrator/Desktop/1125/icon/144x144.png"
+                    "hdpi" : "unpackage/dakuosimage/icon/72x72.png",
+                    "xhdpi" : "unpackage/dakuosimage/icon/96x96.png",
+                    "xxhdpi" : "unpackage/dakuosimage/icon/144x144.png"
                 },
                 "ios" : {
                     "iphone" : {
-                        "app@3x" : "C:/Users/Administrator/Desktop/1125/icon/180x180.png",
-                        "spotlight@2x" : "C:/Users/Administrator/Desktop/1125/icon/80x80.png"
+                        "app@3x" : "unpackage/dakuosimage/icon/180x180.png",
+                        "spotlight@2x" : "unpackage/dakuosimage/icon/80x80.png"
                     }
                 }
             },
             "splashscreen" : {
                 "android" : {
-                    "hdpi" : "C:/Users/Administrator/Desktop/1125/android/480x762.png",
-                    "xhdpi" : "C:/Users/Administrator/Desktop/1125/android/720x1242.png",
-                    "xxhdpi" : "C:/Users/Administrator/Desktop/1125/android/1080x1882.png"
+                    "hdpi" : "",
+                    "xhdpi" : "unpackage/dakuosimage/android/720x1242.png",
+                    "xxhdpi" : "unpackage/dakuosimage/android/1080x1882.png"
                 },
                 "ios" : {
                     "iphone" : {
-                        "portrait-896h@3x" : "C:/Users/Administrator/Desktop/1125/啟動圖/1242x2688.png",
-                        "portrait-896h@2x" : "C:/Users/Administrator/Desktop/1125/啟動圖/828x1792.png",
-                        "iphonex" : "C:/Users/Administrator/Desktop/1125/啟動圖/1125x2436.png",
-                        "retina55" : "C:/Users/Administrator/Desktop/1125/啟動圖/1242x2208.png",
-                        "retina47" : "C:/Users/Administrator/Desktop/1125/啟動圖/750x1334.png",
-                        "retina40" : "C:/Users/Administrator/Desktop/1125/啟動圖/640x1136.png"
+                        "portrait-896h@3x" : "unpackage/dakuosimage/ios/1242x2688.png",
+                        "portrait-896h@2x" : "unpackage/dakuosimage/ios/828x1792.png",
+                        "iphonex" : "unpackage/dakuosimage/ios/1125x2436.png",
+                        "retina55" : "unpackage/dakuosimage/ios/1242x2208.png",
+                        "retina47" : "unpackage/dakuosimage/ios/750x1334.png",
+                        "retina40" : "unpackage/dakuosimage/ios/640x1136.png"
                     }
                 }
             }

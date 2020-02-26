@@ -103,8 +103,6 @@
 								duration:2000
 							});
 						}	
-						if(res.data.success==0){
-						}	
 					}
 				});
 			}

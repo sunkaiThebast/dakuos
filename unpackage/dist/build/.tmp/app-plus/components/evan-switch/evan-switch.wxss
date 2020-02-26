@@ -1,4 +1,4 @@
-.evan-switch.data-v-3054c78b {
+.evan-switch.data-v-06e19666 {
   position: relative;
   border-width: 1px;
   border-color: rgba(0, 0, 0, 0.1);
@@ -7,10 +7,10 @@
   transition: background-color 0.3s;
   box-sizing: content-box;
 }
-.evan-switch--disabled.data-v-3054c78b {
+.evan-switch--disabled.data-v-06e19666 {
   opacity: 0.3;
 }
-.evan-switch__circle.data-v-3054c78b {
+.evan-switch__circle.data-v-06e19666 {
   position: absolute;
   left: 0;
   top: 0;
