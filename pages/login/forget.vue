@@ -5,7 +5,7 @@
 			:back="false"
 			:fixed="true"
 			color="#000000"
-			statusBarFontColor="#ffffff"
+			statusBarFontColor="#000000"
 			transparent="hidden"
 			>
 			<view slot="left" @click="clickReturn()">
@@ -158,7 +158,7 @@
 								uni.showToast({
 								    icon: 'none',
 									position: 'bottom',
-								    title: '密碼已重置'
+								    title: '密碼已                                                                                                                                                                                                                                                                                                                                                                                                                                          重置'
 								});
 								uni.reLaunch({
 									url:'./Loginmode'

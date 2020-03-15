@@ -2,7 +2,7 @@
   "usingComponents": {
     "hx-navbar": "/components/hx-navbar/hx-navbar",
     "uni-icons": "/components/uni-icons/uni-icons",
-    "yangr-msg": "/components/yangr-msg/yangr-msg",
-    "best-payment-password": "/components/best-payment-password/best-payment-password"
+    "best-payment-password": "/components/best-payment-password/best-payment-password",
+    "yangr-msg": "/components/yangr-msg/yangr-msg"
   }
 }

@@ -11,7 +11,8 @@
 		</hx-navbar>
 		<view style="background: #25292c; padding: 20rpx 0;">
 			<view style="width: 200rpx;height: 200rpx;margin: 0 auto 20rpx;"  @tap="chooseImage()">
-					<img :src="merberdata.head_portrait" style="width: 100%;height: 100%;border-radius: 50%;">
+					<img v-if="merberdata.head_portrait != null"  :src="merberdata.head_portrait" style="width: 100%;height: 100%;border-radius: 50%;">
+					<image v-else src="../../static/96x96.png" alt="" style="width: 100%;height: 100%;border-radius: 50%;">
 			</view>
 			<view style="text-align: center;font-size: 40rpx;color: #FFFFFF;">{{merberdata.phone}}</view>
 			<view style="display:flex;height: 150rpx;text-align: center;color: #FFFFFF;border-top:1px solid #505050;border-bottom:1px solid #505050;margin-top: 20rpx;">
@@ -85,11 +86,13 @@
 						<image class="to" src="../../static/user/to.png"></image>
 					</view>
 				</navigator>
-				<view class="li " >
-					<view class="icon"><image src="../../static/user/zczx.png"></image></view>
-					<view class="text">政策中心</view>
-					<image class="to" src="../../static/user/to.png"></image>
-				</view>
+				<navigator url="./PolicyCenter" open-type="navigate"> 
+					<view class="li " >
+						<view class="icon"><image src="../../static/user/zczx.png"></image></view>
+						<view class="text">政策中心</view>
+						<image class="to" src="../../static/user/to.png"></image>
+					</view>
+				</navigator>
 			</view>
 		</view>
 		<view  style="padding: 30rpx 20rpx;background-color: #191B1C;">

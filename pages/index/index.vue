@@ -15,8 +15,8 @@
 		</hx-navbar>
 		<view style="padding: 20rpx;display: flex;">
 			<view class="portrait">
-			   <!-- <image :src="userhead" alt=""> -->
-			   <image :src="merberdata.head_portrait" alt="">
+			   <image v-if="merberdata.head_portrait != null" :src="merberdata.head_portrait" alt="">
+			   <image v-else src="../../static/96x96.png" alt="">
 			</view>
 			<view style="color: #Fff;font-size: 30rpx;min-width: 70%;">
 				<view class="username" v-if="userdata.user_type == 1">
@@ -48,7 +48,7 @@
 		</view>
 		
 		<view style="padding: 20rpx;background-color: #191b1c;">
-			    <text style="font-size: 35rpx;color: #FFFFFF;">推薦店家</text>
+			    <text style="font-size: 35rpx;color: #FFFFFF;">Star</text>
 				<view  style="border: 1px solid #505050;margin-top: 30rpx;border-radius: 10rpx;background-color: #2b2e30;" @click="golsit('https://www.instagram.com/love__me1008/?igshid=7vd60gs0pbyu')">
 					<view style="height: 600rpx;width: 100%;border-bottom:1px solid #505050;padding: 20rpx;">
 						<image style="width: 100%;height: 100%;" src="../../static/list1.png"></image>
@@ -56,26 +56,26 @@
 					<view style="text-align: center;color: #fff;font-weight: bold;font-size: 30rpx;padding:15rpx 20rpx;">love__me1008 張小于</view>
 				</view>
 				<view  style="border: 1px solid #505050;margin-top: 30rpx;border-radius: 10rpx;background-color: #2b2e30;" @click="golsit('https://www.instagram.com/p/B6nlDaNnzQY/')">
-					<view style="height: 350rpx;width: 100%;border-bottom:1px solid #505050;padding: 20rpx;">
+					<view style="height: 600rpx;width: 100%;border-bottom:1px solid #505050;padding: 20rpx;">
 						<image style="width: 100%;height: 100%;" src="../../static/list2.png"></image>
 					</view>
 					<view style="text-align: center;color: #fff;font-weight: bold;font-size: 30rpx;padding:15rpx 20rpx;">wg_vivi 貓貓</view>
 				</view>
 				<view  style="border: 1px solid #505050;margin-top: 30rpx;border-radius: 10rpx;background-color: #2b2e30;" @click="golsit('https://www.instagram.com/p/B29QFYxnPRb/')">
-					<view style="height: 350rpx;width: 100%;border-bottom:1px solid #505050;padding: 20rpx;">
+					<view style="height: 600rpx;width: 100%;border-bottom:1px solid #505050;padding: 20rpx;">
 						<image style="width: 100%;height: 100%;" src="../../static/list3.png"></image>
 					</view>
 					<view style="text-align: center;color: #fff;font-weight: bold;font-size: 30rpx;padding:15rpx 20rpx;">姸予.Queenie</view>
 				</view>
 				<view  style="border: 1px solid #505050;margin-top: 30rpx;border-radius: 10rpx;background-color: #2b2e30;" @click="golsit('https://www.instagram.com/p/B3t5OFCHu2b/')">
-					<view style="height: 350rpx;width: 100%;border-bottom:1px solid #505050;padding: 20rpx;">
+					<view style="height: 600rpx;width: 100%;border-bottom:1px solid #505050;padding: 20rpx;">
 						<image style="width: 100%;height: 100%;" src="../../static/list4.png"></image>
 					</view>
 					<view style="text-align: center;color: #fff;font-weight: bold;font-size: 30rpx;padding:15rpx 20rpx;" >ccleehom1128 蜜瓜</view>
 				</view>
 				<view  style="border: 1px solid #505050;margin-top: 30rpx;border-radius: 10rpx;background-color: #2b2e30;" @click="golsit('https://www.instagram.com/p/B1Dl45tgM9Q/')">
-					<view style="height: 350rpx;width: 100%;border-bottom:1px solid #505050;padding: 20rpx;">
-						<image style="width: 100%;height: 100%;" src="../../static/list5.png"></image>
+					<view style="height: 600rpx;width: 100%;border-bottom:1px solid #505050;padding: 20rpx;">
+						<image style="width: 100%;height: 100%;" src="../../static/list5.png"></image>  
 					</view>
 					<view style="text-align: center;color: #fff;font-weight: bold;font-size: 30rpx;padding:15rpx 20rpx;">張媛媛（ hyesung02272019）</view>
 				</view>
@@ -128,6 +128,7 @@
 							if(res.data.success==1){ 
 								this.merberdata = res.data.data 
 								_this.getmerberdata(res.data.data)
+								console.log(this.merberdata.head_portrait)
 							}
 						}
 					});

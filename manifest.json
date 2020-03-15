@@ -1,116 +1,141 @@
 {
-    "name" : "Dakuos",
-    "appid" : "__UNI__BB0BD5D",
-    "description" : "",
-    "versionName" : "1.0.0",
-    "versionCode" : "100",
-    "transformPx" : false,
-    "app-plus" : {
-        /* 5+App特有相关 */
-        "splashscreen" : {
-            "alwaysShowBeforeRender" : true,
-            "waiting" : true,
-            "autoclose" : true,
-            "delay" : 0
-        },
-        "modules" : {
-            "Maps" : {}
-        },
-        /* 模块配置 */
-        "distribute" : {
-            /* 应用发布信息 */
-            "android" : {
-                /* android打包配置 */
-                "permissions" : [
-                    "<uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\"/>",
-                    "<uses-permission android:name=\"android.permission.MOUNT_UNMOUNT_FILESYSTEMS\"/>",
-                    "<uses-permission android:name=\"android.permission.READ_CONTACTS\"/>",
-                    "<uses-permission android:name=\"android.permission.VIBRATE\"/>",
-                    "<uses-permission android:name=\"android.permission.READ_LOGS\"/>",
-                    "<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/>",
-                    "<uses-feature android:name=\"android.hardware.camera.autofocus\"/>",
-                    "<uses-permission android:name=\"android.permission.WRITE_CONTACTS\"/>",
-                    "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>",
-                    "<uses-permission android:name=\"android.permission.CAMERA\"/>",
-                    "<uses-permission android:name=\"android.permission.RECORD_AUDIO\"/>",
-                    "<uses-permission android:name=\"android.permission.GET_ACCOUNTS\"/>",
-                    "<uses-permission android:name=\"android.permission.MODIFY_AUDIO_SETTINGS\"/>",
-                    "<uses-permission android:name=\"android.permission.READ_PHONE_STATE\"/>",
-                    "<uses-permission android:name=\"android.permission.CHANGE_WIFI_STATE\"/>",
-                    "<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>",
-                    "<uses-permission android:name=\"android.permission.CALL_PHONE\"/>",
-                    "<uses-permission android:name=\"android.permission.FLASHLIGHT\"/>",
-                    "<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\"/>",
-                    "<uses-feature android:name=\"android.hardware.camera\"/>",
-                    "<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\"/>",
-                    "<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>"
-                ]
-            },
-            "ios" : {},
-            /* ios打包配置 */
-            "sdkConfigs" : {
-                "push" : {}
-            },
-            "icons" : {
-                "android" : {
-                    "hdpi" : "unpackage/dakuosimage/icon/72x72.png",
-                    "xhdpi" : "unpackage/dakuosimage/icon/96x96.png",
-                    "xxhdpi" : "unpackage/dakuosimage/icon/144x144.png"
-                },
-                "ios" : {
-                    "iphone" : {
-                        "app@3x" : "unpackage/dakuosimage/icon/180x180.png",
-                        "spotlight@2x" : "unpackage/dakuosimage/icon/80x80.png"
-                    }
-                }
-            },
-            "splashscreen" : {
-                "android" : {
-                    "hdpi" : "",
-                    "xhdpi" : "unpackage/dakuosimage/android/720x1242.png",
-                    "xxhdpi" : "unpackage/dakuosimage/android/1080x1882.png"
-                },
-                "ios" : {
-                    "iphone" : {
-                        "portrait-896h@3x" : "unpackage/dakuosimage/ios/1242x2688.png",
-                        "portrait-896h@2x" : "unpackage/dakuosimage/ios/828x1792.png",
-                        "iphonex" : "unpackage/dakuosimage/ios/1125x2436.png",
-                        "retina55" : "unpackage/dakuosimage/ios/1242x2208.png",
-                        "retina47" : "unpackage/dakuosimage/ios/750x1334.png",
-                        "retina40" : "unpackage/dakuosimage/ios/640x1136.png"
-                    }
-                }
-            }
-        }
-    },
-    /* SDK配置 */
-    "quickapp" : {},
-    /* 快应用特有相关 */
-    "mp-weixin" : {
-        /* 小程序特有相关 */
-        "appid" : "",
-        "setting" : {
-            "urlCheck" : true
-        }
-    },
-    "h5" : {
-        "sdkConfigs" : {
-            "maps" : {
-                "qqmap" : {
-                    "key" : ""
-                }
-            }
-        },
-        "optimization" : {
-            "treeShaking" : {
-                "enable" : true
-            }
-        },
-        "domain" : "www.dakuos.com",
-        "title" : "Dakus",
-        "router" : {
-            "mode" : "history",
-            "base" : "/h5"
-        }
-    }
+	"name" : "D.G.行動礦場",
+	"appid" : "__UNI__BB0BD5D",
+	"description" : "",
+	"versionName" : "1.0.0",
+	"versionCode" : "100",
+	"transformPx" : false,
+	"app-plus" : 
+	{
+		/* 5+App特有相关 */
+		"splashscreen" : 
+		{
+			"alwaysShowBeforeRender" : true,
+			"waiting" : true,
+			"autoclose" : true,
+			"delay" : 0
+		},
+		"modules" : 
+		{
+			"Maps" : {}
+		},
+		/* 模块配置 */
+		"distribute" : 
+		{
+			/* 应用发布信息 */
+			"android" : 
+			{
+				/* android打包配置 */
+				"permissions" : 
+				[
+					"<uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\"/>",
+					"<uses-permission android:name=\"android.permission.MOUNT_UNMOUNT_FILESYSTEMS\"/>",
+					"<uses-permission android:name=\"android.permission.READ_CONTACTS\"/>",
+					"<uses-permission android:name=\"android.permission.VIBRATE\"/>",
+					"<uses-permission android:name=\"android.permission.READ_LOGS\"/>",
+					"<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/>",
+					"<uses-feature android:name=\"android.hardware.camera.autofocus\"/>",
+					"<uses-permission android:name=\"android.permission.WRITE_CONTACTS\"/>",
+					"<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>",
+					"<uses-permission android:name=\"android.permission.CAMERA\"/>",
+					"<uses-permission android:name=\"android.permission.RECORD_AUDIO\"/>",
+					"<uses-permission android:name=\"android.permission.GET_ACCOUNTS\"/>",
+					"<uses-permission android:name=\"android.permission.MODIFY_AUDIO_SETTINGS\"/>",
+					"<uses-permission android:name=\"android.permission.READ_PHONE_STATE\"/>",
+					"<uses-permission android:name=\"android.permission.CHANGE_WIFI_STATE\"/>",
+					"<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>",
+					"<uses-permission android:name=\"android.permission.CALL_PHONE\"/>",
+					"<uses-permission android:name=\"android.permission.FLASHLIGHT\"/>",
+					"<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\"/>",
+					"<uses-feature android:name=\"android.hardware.camera\"/>",
+					"<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\"/>",
+					"<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>"
+				]
+			},
+			"ios" : {},
+			/* ios打包配置 */
+			"sdkConfigs" : 
+			{
+				"push" : {},
+				"ad" : null
+			},
+			"icons" : 
+			{
+				"android" : 
+				{
+					"hdpi" : "unpackage/dakuosimage/icon/72x72.png",
+					"xhdpi" : "unpackage/dakuosimage/icon/96x96.png",
+					"xxhdpi" : "unpackage/dakuosimage/icon/144x144.png"
+				},
+				"ios" : 
+				{
+					"iphone" : 
+					{
+						"app@3x" : "unpackage/dakuosimage/icon/180x180.png",
+						"spotlight@2x" : "unpackage/dakuosimage/icon/80x80.png"
+					}
+				}
+			},
+			"splashscreen" : 
+			{
+				"android" : 
+				{
+					"hdpi" : "",
+					"xhdpi" : "unpackage/dakuosimage/android/720x1242.png",
+					"xxhdpi" : "unpackage/dakuosimage/android/1080x1882.png"
+				},
+				"ios" : 
+				{
+					"iphone" : 
+					{
+						"portrait-896h@3x" : "unpackage/dakuosimage/ios/1242x2688.png",
+						"portrait-896h@2x" : "unpackage/dakuosimage/ios/828x1792.png",
+						"iphonex" : "unpackage/dakuosimage/ios/1125x2436.png",
+						"retina55" : "unpackage/dakuosimage/ios/1242x2208.png",
+						"retina47" : "unpackage/dakuosimage/ios/750x1334.png",
+						"retina40" : "unpackage/dakuosimage/ios/640x1136.png"
+					}
+				}
+			}
+		}
+	},
+	/* SDK配置 */
+	"quickapp" : {},
+	/* 快应用特有相关 */
+	"mp-weixin" : 
+	{
+		/* 小程序特有相关 */
+		"appid" : "",
+		"setting" : 
+		{
+			"urlCheck" : true
+		}
+	},
+	"h5" : 
+	{
+		"sdkConfigs" : 
+		{
+			"maps" : 
+			{
+				"qqmap" : 
+				{
+					"key" : ""
+				}
+			}
+		},
+		"optimization" : 
+		{
+			"treeShaking" : 
+			{
+				"enable" : true
+			}
+		},
+		"domain" : "www.dakuos.com",
+		"title" : "Dakus",
+		"router" : 
+		{
+			"mode" : "history",
+			"base" : "/h5"
+		}
+	}
 }

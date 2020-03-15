@@ -123,6 +123,8 @@
 									position: 'bottom',
 								    title: '登入成功'
 								});
+								uni.setStorageSync('phoneData',this.phoneData);
+								uni.setStorageSync('passData',  this.passData);
 								uni.reLaunch({
 									url:'../index/index'
 								})

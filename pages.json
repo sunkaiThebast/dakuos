@@ -103,6 +103,14 @@
             "path" : "pages/login/Changepaypwd",
             "style" : {}
         }
+        ,{
+            "path" : "pages/login/SendEmail",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/personal/PolicyCenter",
+            "style" : {}
+        }
     ],
 	
 	"globalStyle": {

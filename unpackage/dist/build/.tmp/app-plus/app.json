@@ -21,7 +21,9 @@
     "pages/personal/Renew",
     "pages/personal/Setup",
     "pages/login/Changeloginpwd",
-    "pages/login/Changepaypwd"
+    "pages/login/Changepaypwd",
+    "pages/login/SendEmail",
+    "pages/personal/PolicyCenter"
   ],
   "window": {
     "navigationStyle": "custom",
@@ -74,8 +76,8 @@
     "alwaysShowBeforeRender": true,
     "autoclose": false
   },
-  "appname": "Dakuos",
-  "compilerVersion": "2.5.1",
+  "appname": "D.G.行動礦場",
+  "compilerVersion": "2.6.0",
   "usingComponents": {
     "hx-navbar": "/components/hx-navbar/hx-navbar",
     "uni-icons": "/components/uni-icons/uni-icons",

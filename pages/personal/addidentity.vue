@@ -95,6 +95,7 @@
 						user_type:'1', 
 					},
 					success: (res) => {
+						console.log(res)
 						res.data = JSON.parse(res.data)
 						uni.hideLoading();
 						if(res.data.success == 1){

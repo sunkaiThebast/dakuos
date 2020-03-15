@@ -18,7 +18,7 @@
 				 }
 			 }) 
 			// uni.navigateTo({
-			// 	url: 'pages/login/Changepaypwd'
+			// 	url: 'pages/login/SendEmail'
 			// });
 		},
 		methods: {  

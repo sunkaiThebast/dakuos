@@ -9,7 +9,7 @@
 			:backgroundColor='[52,56,59]' 
 			>
 		</hx-navbar>
-		<view class="fjdj"  v-for="(item,index) in storelist"  >
+		<view class="fjdj"  v-for="(item,index) in storelist"   @click="goGoogleMap(item.longitude_and_latitude)">
 			<view style="width:160rpx;height: 160rpx;border-radius: 50%;">
 				<image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1574609715828&di=202c4ae485ab9d2e1b86d5264cae78be&imgtype=0&src=http%3A%2F%2Fpic18.nipic.com%2F20111228%2F8022226_153114315000_2.jpg" style="width: 100%;height: 100%;border-radius: 50%;"></image>
 			</view>
@@ -99,6 +99,9 @@
 					return value1 - value2;
 				}
 			},
+			goGoogleMap(lol){
+				plus.runtime.openURL('https://www.google.com/maps/search/?api=1&query='+lol) 
+			},
 			distance(res){ 
 				this.storelist = []
 				this.newstoredata = []
@@ -130,7 +133,9 @@
 					console.log(_this.newstoredata)
 					_this.storelist = _this.newstoredata.sort( (a,b) => a.distancevalue-b.distancevalue)
 					_this.loading = false
-				},1000)
+					console.log(_this.storelist[0])
+				},1500)
+				
 				// console.log()
 				// this.storelist = this.newstoredata.sort( () => a.distancevalue-b.distancevalue)
 				// setTimeout(function(){_this.loading = false},1000)

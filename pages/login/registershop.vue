@@ -318,7 +318,7 @@
 					    },
 					    success: (res) => {
 							this.$refs.runCode.$emit('runCode'); //触发倒计时（一般用于请求成功验证码后调用）
-							if(res.success == 1){
+							if(res.data.success == 1){
 								uni.showToast({
 								    icon: 'none',
 									position: 'bottom',
@@ -457,13 +457,13 @@
 					    },
 					    success: (res) => {
 					        console.log(res.data);
-							if(res.success==1){
+							if(res.data.success==1){
 								this.loading = false
 								_this.isRotate=false
 								uni.reLaunch({
-									url:'./loginShop'
+									url:'./SendEmail'
 								})	
-							}else if(res.success==2){
+							}else if(res.data.success==2){
 								this.loading = false
 								uni.showToast({
 								    icon: 'none', 
@@ -473,7 +473,7 @@
 								});
 								_this.isRotate=false
 								_this.verCode=''
-							}else if(res.success==3){
+							}else if(res.data.success==3){
 								this.loading = false
 								uni.showToast({
 								    icon: 'none', 
@@ -483,7 +483,7 @@
 								});
 								_this.isRotate=false
 								_this.verCode=''
-							}else if(res.success==6){
+							}else if(res.data.success==6){
 								this.loading = false
 								uni.showToast({
 								    icon: 'none', 
@@ -493,7 +493,7 @@
 								});
 								_this.isRotate=false
 								_this.phoneData=''
-							}else if(res.success==7){
+							}else if(res.data.success==7){
 								this.loading = false
 								uni.showToast({
 								    icon: 'none', 

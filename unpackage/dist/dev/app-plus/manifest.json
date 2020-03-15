@@ -5,7 +5,7 @@
     "iPad"
   ],
   "id": "__UNI__BB0BD5D",
-  "name": "Dakuos",
+  "name": "D.G.行動礦場",
   "version": {
     "name": "1.0.0",
     "code": "100"
@@ -107,6 +107,7 @@
       "apple": {},
       "plugins": {
         "push": {},
+        "ad": null,
         "audio": {
           "mp3": {
             "description": "Android平台录音支持MP3格式文件"
@@ -122,7 +123,7 @@
       }
     },
     "uni-app": {
-      "compilerVersion": "2.5.1",
+      "compilerVersion": "2.6.5",
       "control": "v8",
       "nvueCompiler": "uni-app",
       "renderer": "auto",
@@ -173,5 +174,6 @@
       ],
       "selected": 0
     }
-  }
+  },
+  "usingComponents": {}
 }
